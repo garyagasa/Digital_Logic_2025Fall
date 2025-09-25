@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+E:/Digital_Logic/Labs/Lab2/Hex7Seg/Hex7Seg/Hex7Seg.srcs/sources_1/new/Hex7Seg.sv,1758819490,systemVerilog,,E:/Digital_Logic/Labs/Lab2/x7seg/x7seg/x7seg.srcs/sources_1/new/x7seg.sv,,Hex7Seg,,uvm,,,,,,
+E:/Digital_Logic/Labs/Lab2/x7seg/x7seg/x7seg.srcs/sources_1/new/x7seg.sv,1758818875,systemVerilog,,E:/Digital_Logic/Labs/Lab3/ALU/ALU/ALU.srcs/sources_1/new/ALU_Top.sv,,X7Seg,,uvm,,,,,,
+E:/Digital_Logic/Labs/Lab3/ALU/ALU/ALU.sim/sim_1/behav/xsim/glbl.v,1758815952,verilog,,,,glbl,,uvm,,,,,,
+E:/Digital_Logic/Labs/Lab3/ALU/ALU/ALU.srcs/sources_1/imports/new/ALU4.sv,1758823071,systemVerilog,,E:/Digital_Logic/Labs/Lab2/Hex7Seg/Hex7Seg/Hex7Seg.srcs/sources_1/new/Hex7Seg.sv,,ALU,,uvm,,,,,,
+E:/Digital_Logic/Labs/Lab3/ALU/ALU/ALU.srcs/sources_1/new/ALU_Top.sv,1758823411,systemVerilog,,,,ALU_Top,,uvm,,,,,,

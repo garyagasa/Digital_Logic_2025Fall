@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Aug 11 15:00:01 2022
+# Process ID: 556
+# Current directory: C:/Users/Administrator/Desktop/mux7seg
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2924 C:\Users\Administrator\Desktop\mux7seg\mux7seg.xpr
+# Log file: C:/Users/Administrator/Desktop/mux7seg/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/mux7seg\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/mux7seg/mux7seg.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 821.516 ; gain = 151.277
+add_files -fileset constrs_1 -norecurse {{C:/_SamData/02 数字逻辑与部件设计/_课件2021/示例代码/mux7seg/mux7seg.srcs/constrs_1/imports/01 XUP Nexys4 DDR Board/Nexys4DDR_Master.xdc}}
+import_files -fileset constrs_1 {{C:/_SamData/02 数字逻辑与部件设计/_课件2021/示例代码/mux7seg/mux7seg.srcs/constrs_1/imports/01 XUP Nexys4 DDR Board/Nexys4DDR_Master.xdc}}
+file mkdir C:/Users/Administrator/Desktop/mux7seg/mux7seg.srcs/sources_1/new
+close [ open C:/Users/Administrator/Desktop/mux7seg/mux7seg.srcs/sources_1/new/mux7seg.sv w ]
+add_files C:/Users/Administrator/Desktop/mux7seg/mux7seg.srcs/sources_1/new/mux7seg.sv
+update_compile_order -fileset sources_1
+close [ open C:/Users/Administrator/Desktop/mux7seg/mux7seg.srcs/sources_1/new/Hex7Seg.sv w ]
+add_files C:/Users/Administrator/Desktop/mux7seg/mux7seg.srcs/sources_1/new/Hex7Seg.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 11 15:49:04 2022...

@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Sep 18 15:41:32 2025
+# Process ID: 3184
+# Current directory: E:/Digital_Logic/Labs/Lab1/Led/Led
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35552 E:\Digital_Logic\Labs\Lab1\Led\Led\Led.xpr
+# Log file: E:/Digital_Logic/Labs/Lab1/Led/Led/vivado.log
+# Journal file: E:/Digital_Logic/Labs/Lab1/Led/Led\vivado.jou
+# Running On        :LAPTOP-1P7N3FS9
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i9-14900HX
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:24
+# CPU Logical cores :32
+# Host memory       :34141 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36288 MB
+# Available Virtual :21675 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Digital_Logic/Labs/Lab1/Led/Led/Led.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_run impl_1

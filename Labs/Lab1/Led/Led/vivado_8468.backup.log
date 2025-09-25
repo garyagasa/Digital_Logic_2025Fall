@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Aug  2 17:38:06 2022
+# Process ID: 8468
+# Current directory: C:/_SamData/02 数字逻辑与部件设计/_课件2022/_实验/实验代码/Led
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11576 C:\_SamData\02 数字逻辑与部件设计\_课件2022\_实验\实验代码\Led\Led.xpr
+# Log file: C:/_SamData/02 数字逻辑与部件设计/_课件2022/_实验/实验代码/Led/vivado.log
+# Journal file: C:/_SamData/02 数字逻辑与部件设计/_课件2022/_实验/实验代码/Led\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/_SamData/02 数字逻辑与部件设计/_课件2022/_实验/实验代码/Led/Led.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/Desktop/Led' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 865.363 ; gain = 239.586
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Aug  2 17:38:54 2022...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Sun Jun  5 21:00:53 2022
+# Process ID: 1336
+# Current directory: C:/Users/Administrator/Desktop/Led/Led.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Administrator/Desktop/Led/Led.sim/sim_1/behav/xsim/xsim.dir/led_Sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Administrator/Desktop/Led/Led.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Administrator/Desktop/Led/Led.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Administrator/Desktop/Led/Led.sim/sim_1/behav/xsim/xsim.dir/led_Sim_behav/webtalk/xsim_webtalk.tcl -notrace
