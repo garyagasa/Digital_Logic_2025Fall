@@ -377,10 +377,6 @@
     <div class="NewUserTutorialTray__Container"></div>
   <div id="react-router-portals"></div>
   
-
-  <iframe src="./2025数字逻辑_files/post_message_forwarding.html" name="post_message_forwarding" title="post_message_forwarding" id="post_message_forwarding" sandbox="allow-scripts allow-same-origin" style="display:none;"></iframe>
-
-
   <script>
     Object.assign(
       ENV,
