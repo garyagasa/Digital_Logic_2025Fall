@@ -383,11 +383,3 @@
       {}
     )
   </script>
-
-
-  
-
-</div> <!-- #application -->
-
-
-<div class="tinymce-a11y-checker-container"></div><div id="nav-tray-portal" style="position: relative; z-index: 99;"></div><div id="file_preview_container"></div><span dir="ltr"></span></body></html>
