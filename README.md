@@ -368,18 +368,3 @@
 </table>
 <p>&nbsp;</p>
   
-    
-  </div>
-
-      
-  <div id="aria_alerts" class="hide-text affix" role="alert" aria-live="assertive"></div>
-  <div id="StudentTray__Container"></div>
-    <div class="NewUserTutorialTray__Container"></div>
-  <div id="react-router-portals"></div>
-  
-  <script>
-    Object.assign(
-      ENV,
-      {}
-    )
-  </script>
