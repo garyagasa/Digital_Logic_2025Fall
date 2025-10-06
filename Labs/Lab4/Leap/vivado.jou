@@ -1,0 +1,105 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Oct  6 23:19:02 2025
+# Process ID: 7244
+# Current directory: E:/Digital_Logic/Labs/Lab4/Leap
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22540 E:\Digital_Logic\Labs\Lab4\Leap\Leap.xpr
+# Log file: E:/Digital_Logic/Labs/Lab4/Leap/vivado.log
+# Journal file: E:/Digital_Logic/Labs/Lab4/Leap\vivado.jou
+# Running On        :LAPTOP-1P7N3FS9
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i9-14900HX
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:24
+# CPU Logical cores :32
+# Host memory       :34141 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36288 MB
+# Available Virtual :23173 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Digital_Logic/Labs/Lab4/Leap/Leap.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -top Leap1_Top -part xc7a100tcsg324-1 -lint 
+synth_design -top Leap1_Top -part xc7a100tcsg324-1 -lint 
+synth_design -top Leap1_Top -part xc7a100tcsg324-1 -lint 
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/Digital_Logic/Labs/Lab4/Leap/Leap.runs/impl_1/Leap1_Top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {E:/Digital_Logic/Labs/Lab4/Leap/Leap.runs/impl_1/Leap1_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {E:/Digital_Logic/Labs/Lab4/Leap/Leap.runs/impl_1/Leap1_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_run impl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {E:/Digital_Logic/Labs/Lab4/Leap/Leap.runs/impl_1/Leap1_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_files -from_files E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/Leap.sv -to_files E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/sources_1/imports/sources_1/imports/new/ALU4.sv -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_files -from_files E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/Leap1_Top.sv -to_files E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/sources_1/imports/sources_1/new/ALU_Top.sv -filesets [get_filesets *]
+export_ip_user_files -of_objects  [get_files E:/Digital_Logic/Labs/Lab4/Leap/Hex7Seg.sv] -no_script -reset -force -quiet
+remove_files  E:/Digital_Logic/Labs/Lab4/Leap/Hex7Seg.sv
+export_ip_user_files -of_objects  [get_files E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/sources_1/imports/sources_1/imports/new/Leap.sv] -no_script -reset -force -quiet
+remove_files  E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/sources_1/imports/sources_1/imports/new/Leap.sv
+export_ip_user_files -of_objects  [get_files E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/sources_1/imports/sources_1/new/Leap1_Top.sv] -no_script -reset -force -quiet
+remove_files  E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/sources_1/imports/sources_1/new/Leap1_Top.sv
+export_ip_user_files -of_objects  [get_files E:/Digital_Logic/Labs/Lab4/Leap/x7seg.sv] -no_script -reset -force -quiet
+remove_files  E:/Digital_Logic/Labs/Lab4/Leap/x7seg.sv
+import_files -norecurse {E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/x7seg.sv E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/Hex7Seg.sv E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/Leap.sv E:/Digital_Logic/Labs/Lab4/Leap/Leap.srcs/Leap1_Top.sv}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+launch_runs synth_1 -jobs 16
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+current_design impl_1
+current_design rtl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {E:/Digital_Logic/Labs/Lab4/Leap/Leap.runs/impl_1/Leap1_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
