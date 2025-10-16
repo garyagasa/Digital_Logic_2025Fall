@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/Hex7Seg.sv" \
+"../../../../project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/_74LS138_.sv" \
+"../../../../project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/converter_74.sv" \
+"../../../../project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/x7seg.sv" \
+"../../../../project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/bcd_to_grey_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

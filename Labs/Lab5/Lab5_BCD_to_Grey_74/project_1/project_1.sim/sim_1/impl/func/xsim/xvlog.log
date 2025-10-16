@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.sim/sim_1/impl/func/xsim/bcd_to_grey_top_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module X7Seg
+INFO: [VRFC 10-311] analyzing module bcd_to_grey_top
+INFO: [VRFC 10-311] analyzing module glbl

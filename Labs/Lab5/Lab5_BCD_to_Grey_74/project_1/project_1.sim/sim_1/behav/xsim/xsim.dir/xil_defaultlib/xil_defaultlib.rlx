@@ -1,0 +1,10 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
+E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/Hex7Seg.sv,1760633043,systemVerilog,,E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/_74LS138_.sv,,Hex7Seg,,uvm,,,,,,
+E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/_74LS138_.sv,1760643461,systemVerilog,,E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/converter_74.sv,,_74LS138_,,uvm,,,,,,
+E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/bcd_to_grey_top.sv,1760638975,systemVerilog,,,,bcd_to_grey_top,,uvm,,,,,,
+E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/converter_74.sv,1760645137,systemVerilog,,E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/x7seg.sv,,converter_74,,uvm,,,,,,
+E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/x7seg.sv,1760639907,systemVerilog,,E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.srcs/sources_1/imports/Lab5_BCD_to_Grey/bcd_to_grey_top.sv,,X7Seg,,uvm,,,,,,

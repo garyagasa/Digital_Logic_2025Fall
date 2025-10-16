@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Oct 17 04:19:00 2025
+# Process ID: 37616
+# Current directory: E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log bcd_to_grey_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source bcd_to_grey_top.tcl -notrace
+# Log file: E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.runs/impl_1/bcd_to_grey_top.vdi
+# Journal file: E:/Digital_Logic/Labs/Lab5/Lab5_BCD_to_Grey_74/project_1/project_1.runs/impl_1\vivado.jou
+# Running On        :LAPTOP-1P7N3FS9
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i9-14900HX
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:24
+# CPU Logical cores :32
+# Host memory       :34141 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36288 MB
+# Available Virtual :14188 MB
+#-----------------------------------------------------------
+source bcd_to_grey_top.tcl -notrace

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1760644818">
+  <File Type="ROUTE-PWR" Name="bcd_to_grey_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="bcd_to_grey_top.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="bcd_to_grey_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="bcd_to_grey_top_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="bcd_to_grey_top_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="bcd_to_grey_top.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="bcd_to_grey_top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="bcd_to_grey_top_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="bcd_to_grey_top_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="bcd_to_grey_top_opt.dcp"/>
+  <File Type="OPT-DRC" Name="bcd_to_grey_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="bcd_to_grey_top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="bcd_to_grey_top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="bcd_to_grey_top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="bcd_to_grey_top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="bcd_to_grey_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="bcd_to_grey_top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="bcd_to_grey_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="bcd_to_grey_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="bcd_to_grey_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="bcd_to_grey_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="bcd_to_grey_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="bcd_to_grey_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="bcd_to_grey_top.bin"/>
+  <File Type="PLACE-TIMING" Name="bcd_to_grey_top_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="bcd_to_grey_top_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="bcd_to_grey_top_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="bcd_to_grey_top_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="bcd_to_grey_top.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="bcd_to_grey_top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="bcd_to_grey_top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="bcd_to_grey_top_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="bcd_to_grey_top.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="bcd_to_grey_top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="bcd_to_grey_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="bcd_to_grey_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="bcd_to_grey_top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="bcd_to_grey_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="bcd_to_grey_top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="bcd_to_grey_top_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="bcd_to_grey_top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="bcd_to_grey_top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="bcd_to_grey_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="bcd_to_grey_top_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="bcd_to_grey_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="bcd_to_grey_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="bcd_to_grey_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="bcd_to_grey_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="bcd_to_grey_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="bcd_to_grey_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="bcd_to_grey_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="bcd_to_grey_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="bcd_to_grey_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="bcd_to_grey_top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="bcd_to_grey_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="bcd_to_grey_top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="bcd_to_grey_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="bcd_to_grey_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="bcd_to_grey_top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="bcd_to_grey_top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="bcd_to_grey_top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="bcd_to_grey_top_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="bcd_to_grey_top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="bcd_to_grey_top.nky"/>
+  <File Type="BITSTR-BMM" Name="bcd_to_grey_top_bd.bmm"/>
+  <File Type="PDI-FILE" Name="bcd_to_grey_top.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="bcd_to_grey_top_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="bcd_to_grey_top_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="bcd_to_grey_top.rcfi"/>
+  <File Type="CFI_FILE" Name="bcd_to_grey_top.cfi"/>
+  <File Type="RNPI_FILE" Name="bcd_to_grey_top.rnpi"/>
+  <File Type="NPI_FILE" Name="bcd_to_grey_top.npi"/>
+  <File Type="RBD_FILE" Name="bcd_to_grey_top.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="bcd_to_grey_top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="bcd_to_grey_top.sysdef"/>
+  <File Type="BG-BGN" Name="bcd_to_grey_top.bgn"/>
+  <File Type="BG-DRC" Name="bcd_to_grey_top.drc"/>
+  <File Type="RDI-RDI" Name="bcd_to_grey_top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="bcd_to_grey_top_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="bcd_to_grey_top_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Lab5_BCD_to_Grey_expression/Hex7Seg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Hex7Seg.sv"/>
+        <Attr Name="ImportTime" Val="1760633043"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab5_BCD_to_Grey_expression/converter_expression.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../converter_expression.sv"/>
+        <Attr Name="ImportTime" Val="1760643992"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab5_BCD_to_Grey_expression/x7seg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../x7seg.sv"/>
+        <Attr Name="ImportTime" Val="1760640098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab5_BCD_to_Grey_expression/bcd_to_grey_top.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../bcd_to_grey_top.sv"/>
+        <Attr Name="ImportTime" Val="1760644432"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab5_BCD_to_Grey_expression/_74LS138_.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../_74LS138_.sv"/>
+        <Attr Name="ImportTime" Val="1760643476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab5_BCD_to_Grey_expression/converter_74.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../converter_74.sv"/>
+        <Attr Name="ImportTime" Val="1760643730"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="bcd_to_grey_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Labs/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1758824153"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/bcd_to_grey_top.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
