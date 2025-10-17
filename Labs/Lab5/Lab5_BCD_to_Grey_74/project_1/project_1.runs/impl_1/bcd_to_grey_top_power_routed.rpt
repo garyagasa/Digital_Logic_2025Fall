@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date             : Fri Oct 17 04:19:36 2025
+| Date             : Fri Oct 17 08:24:52 2025
 | Host             : LAPTOP-1P7N3FS9 running 64-bit major release  (build 9200)
 | Command          : report_power -file bcd_to_grey_top_power_routed.rpt -pb bcd_to_grey_top_power_summary_routed.pb -rpx bcd_to_grey_top_power_routed.rpx
 | Design           : bcd_to_grey_top
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.112        |
+| Total On-Chip Power (W)  | 0.114        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.021        |
+| Dynamic (W)              | 0.023        |
 | Device Static (W)        | 0.092        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 99.5         |
@@ -60,9 +60,9 @@ Table of Contents
 |   F7/F8 Muxes  |    <0.001 |        1 |     63400 |           <0.01 |
 |   Others       |     0.000 |        4 |       --- |             --- |
 | Signals        |    <0.001 |       49 |       --- |             --- |
-| I/O            |     0.020 |       48 |       210 |           22.86 |
+| I/O            |     0.022 |       48 |       210 |           22.86 |
 | Static Power   |     0.092 |          |           |                 |
-| Total          |     0.112 |          |           |                 |
+| Total          |     0.114 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -141,7 +141,7 @@ Table of Contents
 +-----------------+-----------+
 | Name            | Power (W) |
 +-----------------+-----------+
-| bcd_to_grey_top |     0.021 |
+| bcd_to_grey_top |     0.023 |
 +-----------------+-----------+
 
 

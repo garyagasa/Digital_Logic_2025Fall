@@ -16,11 +16,11 @@ module converter_74(input logic[3:0] bcd_code, output logic[3:0] grey_code);
                     .y_data(LS_2_out));
     
     assign grey_code[3] = bcd_code[3];
-    assign grey_code[0] = ~( LS_1_out[1] & LS_1_out[2] & LS_1_out[5] & LS_1_out[6] &
-                            LS_2_out[1] & LS_2_out[2] & LS_2_out[5] & LS_2_out[6]);
-    assign grey_code[1] = ~( LS_1_out[2] & LS_1_out[3] & LS_1_out[4] & LS_1_out[5] &
-                            LS_2_out[2] & LS_2_out[3] & LS_2_out[4] & LS_2_out[5]);
-    assign grey_code[2] = ~( LS_1_out[4] & LS_1_out[5] & LS_1_out[6] & LS_1_out[7] &
-                            LS_2_out[0] & LS_2_out[1] & LS_2_out[2] & LS_2_out[3]);
+    assign grey_code[2] = LS_1_out[4] | LS_1_out[5] | LS_1_out[6] | LS_1_out[7] |
+                            LS_2_out[0] | LS_2_out[1] | LS_2_out[2] | LS_2_out[3];
+    assign grey_code[1] = LS_1_out[2] | LS_1_out[3] | LS_2_out[4] | LS_2_out[5] |
+                            LS_2_out[2] | LS_2_out[3] | LS_2_out[4] | LS_2_out[5];
+    assign grey_code[0] = LS_1_out[1] | LS_1_out[2] | LS_1_out[5] | LS_1_out[6] |
+                            LS_2_out[1] | LS_2_out[2] | LS_2_out[5] | LS_2_out[6];
 
 endmodule
